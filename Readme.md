@@ -2,22 +2,30 @@ Guillaume NOYEL
 
 # Logarithmic Mathematical Morphology: theory and applications
 
-This is the manuscript's code.
+This is the papers's code.
 
 Please cite it as follows:
 ```bibtex
-@misc{noyel2025logarithmicmathematicalmorphologytheory,
-      title={Logarithmic Mathematical Morphology: theory and applications}, 
-      author={Guillaume Noyel},
-      year={2025},
-      eprint={2309.02007},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2309.02007}, 
+@article{Noyel2026,
+   abstract = {In mathematical morphology for grey-level functions, an image is analysed by another image named the structuring function. This structuring function is translated over the image domain and summed to the image. However, in an image presenting lighting variations, when the structuring function is added to this image, the amplitude of this translated structuring function should vary according to the image intensity. Such a property is not verified in mathematical morphology for grey-level functions, when the structuring function is summed to the image with the usual additive law. This issue has been addressed by defining a framework that uses an additive law, for which the amplitude of the structuring function added to the image varies according to the amplitude of the image itself. This additive law is chosen within the logarithmic image processing framework and models the lighting variations with a physical cause such as a change of light intensity. The framework is named logarithmic mathematical morphology (LMM) and allows the definition of operators which are robust to such lighting variations.},
+   author = {Guillaume Noyel},
+   doi = {10.1007/S10851-026-01346-1},
+   issn = {1573-7683},
+   issue = {5},
+   journal = {Journal of Mathematical Imaging and Vision 2026 68:5},
+   keywords = {Applications of Mathematics,Image Processing and Computer Vision,Image and Speech Processing,Mathematical Methods in Physics,Signal},
+   month = {9},
+   pages = {74-},
+   publisher = {Springer},
+   title = {Logarithmic Mathematical Morphology: Theory and Applications},
+   volume = {68},
+   url = {https://link.springer.com/article/10.1007/s10851-026-01346-1},
+   year = {2026}
 }
+
 ```
 
-The code used to generate the manuscript illustrations is available in the folder [./Manuscript_code](./Manuscript_code).
+The code used to generate the paper illustrations is available in the folder [./Manuscript_code](./Manuscript_code).
 
 The code used for the comparisons between different vessel segmentation algorithms in eye fundus images is available in the folder
  [./Eye_fundus/Result_analysis](./Eye_fundus/Result_analysis).
