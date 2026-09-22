@@ -5,6 +5,8 @@ Guillaume NOYEL
 This is the papers's code.
 
 Please cite it as follows:
+
+Noyel, G. Logarithmic Mathematical Morphology: Theory and Applications. J Math Imaging Vis 68, 74 (2026). [https://doi.org/10.1007/s10851-026-01346-1](https://doi.org/10.1007/s10851-026-01346-1)
 ```bibtex
 @article{Noyel2026,
    abstract = {In mathematical morphology for grey-level functions, an image is analysed by another image named the structuring function. This structuring function is translated over the image domain and summed to the image. However, in an image presenting lighting variations, when the structuring function is added to this image, the amplitude of this translated structuring function should vary according to the image intensity. Such a property is not verified in mathematical morphology for grey-level functions, when the structuring function is summed to the image with the usual additive law. This issue has been addressed by defining a framework that uses an additive law, for which the amplitude of the structuring function added to the image varies according to the amplitude of the image itself. This additive law is chosen within the logarithmic image processing framework and models the lighting variations with a physical cause such as a change of light intensity. The framework is named logarithmic mathematical morphology (LMM) and allows the definition of operators which are robust to such lighting variations.},
